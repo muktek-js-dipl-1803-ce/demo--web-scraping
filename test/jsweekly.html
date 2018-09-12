@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Weekly Issue 402: September  7, 2018</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="alternate" type="application/rss+xml" title="JavaScript Weekly" href="/rss/1jkkbpaa">
+  <link rel="shortcut icon" href="/favicon.png">
+</head>
+<body class="jw dom dom-jw issues 402 issue jw issue">
+  <header class="contained">
+    <nav>
+    <div class="sitename" style="cursor: pointer" onclick="window.location.href='/'"><a href="/">JavaScript Weekly</a></div>
+
+    <div class="items">
+
+            <a href="/issues" class="issues">Archives</a><span class="divider">|</span>
+            <a href="/latest" class="latest">Latest</a><span class="nomobile"><span class="divider">|</span>
+            <a href="/rss/21p5d47h">RSS</a></span>
+
+    </div>
+  </nav>
+
+
+</header>
+
+  <main>
+
+
+<section class="contained">
+
+  <div class="nomobile"><div class="subscribe_box" class="">
+<form class="subscribe" action="/subscribe" method="POST">
+  <input type="email" placeholder="Want to subscribe? Enter your address here" class="email" name="xemail" id="email" /><button class="awesome" type="submit">Subscribe now &raquo;</button>
+  <div class="smallprint">Easy to unsubscribe at any time. Your e-mail address <a href="https://cooperpress.com/spam.html">is safe</a> &mdash; here's <a href="https://cooperpress.com/legal/privacy/">our privacy policy.</a></div>
+  <input type="hidden" name="_csrf" value="T_iAS3PS2cy7H5SndZ9yJWv7I5zk6-mQ1WER4KSqPgk" />
+</form>
+</div>
+</div>
+
+  <div class="pager">
+    <div class="prev">
+
+        <a href="/issues/401">&laquo; Prev</a>
+
+    </div>
+    <div class="center">
+      <!-- Issue 402 -->
+    </div>
+    <div class="next">
+
+    </div>
+  </div>
+
+  <div class="issue-html"><body>
+
+
+
+
+
+
+
+  <style>body {
+margin: 0; padding: 0; height: 100%; width: 100%; background-color: white; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-rendering: optimizeLegibility; font-feature-settings: "kern" 1;
+}
+body {
+font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em;
+}
+img {
+-ms-interpolation-mode: bicubic; border: 0 none; outline: none; height: auto; text-decoration: none; max-width: 100%;
+}
+@media screen and (max-width: 600px) {
+  table[id="main"] {
+    max-width: 600px !important; width: 100% !important; min-width: 100% !important;
+  }
+  .nomob {
+    display: none !important;
+  }
+  .onlymob {
+    display: inline-block !important;
+  }
+  .rightifmob {
+    text-align: right !important;
+  }
+  .som {
+    max-width: 33% !important;
+  }
+  div.footer p {
+    text-align: left !important;
+  }
+  div.footer td {
+    text-align: left !important;
+  }
+}
+</style>
+
+
+
+
+<!--[if (gte mso 9)|(IE)]>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" width="600"><tr><td valign="top" style="width: 600px;" bgcolor="#ffffff"><![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="main" width="100%" style="table-layout: fixed; padding: 0px; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; max-width: 600px; height: 100% !important;">
+  <tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;">
+
+  <div id="content">    <!-- left/right splitbar -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr>
+<td width="50%" align="left" style="padding-left: 4px; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><p style="font-size: 12px; color: #999999; text-transform: uppercase; line-height: 1.0em; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; margin-top: 0.8em; margin-bottom: 0.8em;">#402 — September  7, 2018</p></td>
+<td width="50%" align="right" style="padding-right: 4px; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><p style="font-size: 12px; text-transform: uppercase; line-height: 1.0em; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; margin-top: 0.8em; margin-bottom: 0.8em;"><a target="_blank" href="https://javascriptweekly.com/link/52510/web" style="text-decoration: none; color: #3366aa;">Read on the Web</a></p></td>
+</tr></table>
+    <!-- masthead -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f7df1e; text-align: center; color: #222222; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;" class="el-masthead"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0 12px;"><p style="font-size: 1.8em; font-weight: 600; line-height: 1.0em; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; margin-top: 0.8em; margin-bottom: 0.8em;">JavaScript Weekly</p></td></tr></table>
+<!-- normal content section -->
+<table width="100%" cellpadding="0" cellspacing="0" class="content el-content" style="color: #5a5a5a; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+      <p style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; margin-top: 0.8em; margin-bottom: 0.8em;">Apologies if you notice today's issue is a little lower tempo than usual. We have some great things coming up, including more interviews like Dr. Axel's in <a target="_blank" href="https://javascriptweekly.com/link/52527/web" style="text-decoration: none; color: #3366aa; font-weight: 600;">issue 399</a>, but today I've been struck by a sickness bug 😷 and have struggled to even get this far. To a better next week! 🙂<br>
+      <span style="color: #666666;"><em>— Peter Cooper, editor</em></span></p>
+    </td></tr></table>
+<div class="hrule" style="width: 100%; height: 1px; border-top-width: 1px; margin-top: 14px; margin-bottom: 8px; border-top-style: solid; border-top-color: #eedd66;"></div>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52511/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">How GitHub Removed jQuery From Their Frontend</a></span> — GitHub has just been able to drop jQuery as a dependency of the frontend code for GitHub.com. This transition has taken years and here’s what they’ve learnt and what libraries have replaced it.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">GitHub Engineering </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52528/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Ky: A Tiny, Elegant HTTP Client for Browsers Based on Fetch</a></span> — A new HTTP client library for the browser from one man module machine Sindre Sorhus. This one essentially makes the Fetch API tidier to use as shown in the <a target="_blank" href="https://javascriptweekly.com/link/52529/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">demo code</a>.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Sindre Sorhus </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+  <a target="_blank" target="_blank" href="https://javascriptweekly.com/link/52512/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;"><img src="https://copm.s3.amazonaws.com/1a3a6973.png" width="174" height="75" style="padding-top: 12px; border: 0 none; padding-left: 12px; -ms-interpolation-mode: bicubic; outline: none; height: auto; text-decoration: none; max-width: 100%;" align="right" alt="" class="som"></a>
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52512/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Angular, React or Vue?</a></span> — How do you choose one JavaScript framework over another for your next web application? Our new whitepaper gives insight into the current state of Angular, React and Vue and how they compare against a comprehensive set of criteria. <a target="_blank" href="https://javascriptweekly.com/link/52512/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Download now</a>.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Progress Kendo UI <span style="text-transform: uppercase; padding: 1px 4px; border: 1px solid #dd6; margin-left: 4px; font-size: 0.9em; border-radius: 2px; background-color: #ffc; color: #997 !important;" class="tag-sponsor">sponsor</span></p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52530/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Take the 'State of JavaScript 2018' Survey</a></span> — Sacha Greif’s popular survey returns, aiming to see what tools and technologies in the JavaScript space that developers are using, happy with and excited about. Results are expected in November and we’ll share them then.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Sacha Greif </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52531/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">A Tour of JavaScript Timers on the Web</a></span> — Want to get your head around <code>setTimeout</code> vs <code>setInterval</code> vs <code>setImmediate</code> vs  <code>requestAnimationFrame</code> and others? This will help.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Nolan Lawson </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52532/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Sqorn: A Fast, Composable SQL Query Builder</a></span> — Uses a functional style that models query compilation as a series of transformations and also uses ES6 template literals in an interesting way. Worth checking out. <a target="_blank" href="https://javascriptweekly.com/link/52533/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Full tutorial here.</a></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Sufyan Dawoodjee </p>
+</td></tr></table>
+<table width="100%" cellpadding="0" cellspacing="0" class="el-heading" style="background-color: none !important; text-align: left; margin-top: 15px; color: #333333; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0;"><p style="font-size: 1.6em !important; margin: 0.5em 0; font-weight: 400 !important; text-transform: none !important; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; line-height: 1.55em; display: inline-block; border-bottom-width: 6px; border-bottom-color: #f4f4f4; border-bottom-style: solid;">💻 Jobs</p></td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52513/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">JavaScript Developer at X-Team (Remote)</a></span> — We help our developers keep learning and growing every day. Unleash your potential. Work from anywhere. <a target="_blank" href="https://javascriptweekly.com/link/52513/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Join X-Team</a>.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">x-team </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52514/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Find A JavaScript Job Through Vettery</a></span> — Create a profile to connect with inspiring companies seeking JavaScript devs.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Vettery </p>
+</td></tr></table>
+<table width="100%" cellpadding="0" cellspacing="0" class="el-heading" style="background-color: none !important; text-align: left; margin-top: 15px; color: #333333; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0;"><p style="font-size: 1.6em !important; margin: 0.5em 0; font-weight: 400 !important; text-transform: none !important; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; line-height: 1.55em; display: inline-block; border-bottom-width: 6px; border-bottom-color: #f4f4f4; border-bottom-style: solid;">📘 Tutorials and Opinions</p></td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52534/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Why Async: How JavaScript Interacts with the Real World</a></span> — A preview of an as yet unreleased course, but even these three pages might help you out if you’re still learning how promises and async/await can improve your code.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Frontend Armory </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52535/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Using the Speech Synthesis Interface of the Web Speech API</a></span> — Get your browser to speak back to you.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Manuel Wieser </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52517/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">How to Build a Multiplayer JavaScript VR Game</a></span> — Combine A-Frame, PubNub, and WebVR to launch a browser-based VR game.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">PubNub <span style="text-transform: uppercase; padding: 1px 4px; border: 1px solid #dd6; margin-left: 4px; font-size: 0.9em; border-radius: 2px; background-color: #ffc; color: #997 !important;" class="tag-sponsor">sponsor</span></p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52515/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Making GraphQL Client Requests in Node (and the Browser) using graphql.js</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Hugo Di Francesco </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52516/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">How to Use Media Queries from JavaScript</a></span> — The <code>matchMedia</code> method is the key.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Craig Buckler </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52537/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Goodbye Redux</a></span> — <em>“A complete breakdown on why we needed Redux in the past, and why we don’t any more.”</em></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Jack Scott </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52536/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Reduce JavaScript Payloads with Code Splitting</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Google Developers </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52538/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">To Grok A Mockingbird: Using Recursive Combinators to Enhance Functional Composition</a></span> — One for the functional programming fans :-)</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Reg Braithwaite </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52520/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Webinar: Optimizing MongoDB Performance on AWS</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">mongodb <span style="text-transform: uppercase; padding: 1px 4px; border: 1px solid #dd6; margin-left: 4px; font-size: 0.9em; border-radius: 2px; background-color: #ffc; color: #997 !important;" class="tag-sponsor">sponsor</span></p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52518/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Using Babel 7 and 'preset-typescript' to Compile an Angular 6 App</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Hubert Zub </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52539/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">TypeScript with Babel: A Beautiful Marriage?</a></span> — TypeScript has never been easier to adopt thanks to the new TypeScript plugin for Babel.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Matt Turnbull </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52540/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">How We Got a 100% Lighthouse Performance Score for a Vue.js App</a></span> — Lighthouse is a performance auditing tool embedded in Chrome.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Tim Nolet </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52519/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Making Calls from a Browser with Vue.js and Nexmo In-App Voice</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Phil Leggetter </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52541/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Building A Flexible Image Uploader Component using Vue.js 2.0</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Cathy Ha </p>
+</td></tr></table>
+<table width="100%" cellpadding="0" cellspacing="0" class="el-heading" style="background-color: none !important; text-align: left; margin-top: 15px; color: #333333; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0;"><p style="font-size: 1.6em !important; margin: 0.5em 0; font-weight: 400 !important; text-transform: none !important; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; line-height: 1.55em; display: inline-block; border-bottom-width: 6px; border-bottom-color: #f4f4f4; border-bottom-style: solid;">🔧 Code and Tools</p></td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52542/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">date-fns: A Modern Date Utility Library</a></span> — It’s <em>“like lodash for dates”</em> and can really <a target="_blank" href="https://javascriptweekly.com/link/52543/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">get your bundle sizes down</a> <a target="_blank" href="https://javascriptweekly.com/link/52544/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">says</a> Addy Osmani.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Sasha Koss </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52521/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Taking Payments Online with Square and Vue.js</a></span> — Take online payments in a custom form using Vue and the Square Payment Form.</p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Square Developer <span style="text-transform: uppercase; padding: 1px 4px; border: 1px solid #dd6; margin-left: 4px; font-size: 0.9em; border-radius: 2px; background-color: #ffc; color: #997 !important;" class="tag-sponsor">sponsor</span></p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52545/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">Angular Fire v5.0: The Official Library for Using Firebase from Angular</a></span></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">Angular </p>
+</td></tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="el-item item  " style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+
+  <p class="desc" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; color: #5a5a5a; margin-top: 0.8em; margin-bottom: 0;"><span style="font-weight: 600; font-size: 1.1em; color: #000;" class="mainlink"><a target="_blank" href="https://javascriptweekly.com/link/52546/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">React 16.5.0 Released</a></span> — For more, refer to <a target="_blank" href="https://javascriptweekly.com/link/52547/web" style="text-decoration: none; color: #3366aa; border-bottom-width: 1px !important; border-bottom-color: #ddd !important; border-bottom-style: solid !important;">this week’s React newsletter.</a></p>
+  <p class="name" style="color: #5a5a5a; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 12px; line-height: 1.55em; margin-top: 2px; margin-bottom: 0.8em; text-transform: uppercase;">React GitHub Repo </p>
+</td></tr></table>
+<table width="100%" cellpadding="0" cellspacing="0" class="el-subtable" style="background-color: #ffffdd; margin-top: 15px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px;">
+<!-- normal content section -->
+<table width="100%" cellpadding="0" cellspacing="0" class="content el-content" style="color: #5a5a5a; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; margin-top: 0 !important;"><tr><td style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 0px 15px;">
+<p class="byline" style="font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; margin-top: 0.8em; margin-bottom: 0.8em;">🗓 <strong style="font-weight: 600;">Upcoming JavaScript Events</strong></p>
+
+<ul>
+<li class="event" style="margin-bottom: 1em;">
+<a target="_blank" href="https://javascriptweekly.com/link/52522/web" style="text-decoration: none; color: #3366aa; font-weight: 600;">JSCamp 2018 (Sep 22 in Chicago, IL)</a> — A one day single track event.</li>
+
+<li class="event" style="margin-bottom: 1em;">
+<a target="_blank" href="https://javascriptweekly.com/link/52523/web" style="text-decoration: none; color: #3366aa; font-weight: 600;">Framework Summit 2018 (Oct 2-3 in Park City, UT)</a> — A new 2 day conference focused on all front end frameworks with keynotes from the teams of the most popular ones.</li>
+
+<li class="event" style="margin-bottom: 1em;">
+<a target="_blank" href="https://javascriptweekly.com/link/52524/web" style="text-decoration: none; color: #3366aa; font-weight: 600;">Node+JS Interactive (Oct 10-12 in Vancouver, Canada)</a> — One of the largest JavaScript events. Organized by the Linux Foundation.</li>
+
+<li class="event" style="margin-bottom: 1em;">
+<a target="_blank" href="https://javascriptweekly.com/link/52525/web" style="text-decoration: none; color: #3366aa; font-weight: 600;">jsMobileConf (Oct 25-26 in Boston, MA)</a> — A two-day, two-track, developer event focused on mobility and the cutting-edge JavaScript ecosystem.</li>
+
+<li class="event" style="margin-bottom: 1em;"><a target="_blank" href="https://javascriptweekly.com/link/52526/web" style="text-decoration: none; color: #3366aa; font-weight: 600;">CascadiaJS (Nov 15-16 in Seattle, WA)</a></li>
+
+</ul>
+
+</td></tr></table>
+</td></tr></table>
+<table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"><tr><td style="height: 16px; font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif; font-size: 15px; line-height: 1.55em; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;"></td></tr></table>
+</div>
+
+  </td></tr>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+
+
+
+
+</body></div>
+
+<div class="pager">
+    <div class="prev">
+
+        <a href="/issues/401">&laquo; Prev</a>
+
+    </div>
+    <div class="center">
+      <!-- Issue 402 -->
+    </div>
+    <div class="next">
+
+    </div>
+  </div>
+
+  <div class="subscribe_box" class="">
+<form class="subscribe" action="/subscribe" method="POST">
+  <input type="email" placeholder="Want to subscribe? Enter your address here" class="email" name="xemail" id="email" /><button class="awesome" type="submit">Subscribe now &raquo;</button>
+  <div class="smallprint">Easy to unsubscribe at any time. Your e-mail address <a href="https://cooperpress.com/spam.html">is safe</a> &mdash; here's <a href="https://cooperpress.com/legal/privacy/">our privacy policy.</a></div>
+  <input type="hidden" name="_csrf" value="T_iAS3PS2cy7H5SndZ9yJWv7I5zk6-mQ1WER4KSqPgk" />
+</form>
+</div>
+
+
+</section>
+
+<img src="/open/402/web" />
+</main>
+<!-- <script src="/js/app.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-2237791-21','javascriptweekly.com');ga('send', 'pageview');
+</script>
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '1213763378662807'); fbq('track', 'PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1213763378662807&ev=PageView&noscript=1" /></noscript> -->
+  
+  <script type="text/javascript" src="./jquery.min.js">
+
+  </script>
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
